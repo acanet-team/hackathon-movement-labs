@@ -1,0 +1,47 @@
+.tab-rating__container,
+.tab-rating-list__container {
+  background-color: var(--light);
+  width: 100%;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.tab-rating-list__container {
+  margin-bottom: 100px;
+}
+
+.review_date {
+  font-size: 14px;
+}
+
+.review-avatar {
+  border-radius: 50%;
+}
+
+:global(.theme-dark) {
+  .tab-rating__container,
+  .tab-rating-list__container {
+    background-color: var(--theme-dark-color-bg);
+  }
+
+  .tab-rating__container label, .tab-rating__container span {
+    color: #ffd700 !important;
+  }
+
+  .tab-rating__container input[type="radio"]:checked + label {
+    background-color: transparent !important;
+  }
+
+  .review-name {
+    color: var(--theme-color-shade);
+  }
+
+  .review-desc {
+    color: var(--light);
+  }
+
+  .tab-rating__container .MuiInputBase-input {
+    color: #111 !important;
+  }
+}
+

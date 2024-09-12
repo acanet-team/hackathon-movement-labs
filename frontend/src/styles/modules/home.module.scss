@@ -1,0 +1,56 @@
+#home .home-tabs {
+  width: 100%;
+  display: flex;
+}
+
+#home .home-tabs .button-tab {
+  width: 50%;
+  height: 60px;
+  opacity: 0.6;
+  font-weight: 700;
+  background-color: #fbfcfe !important;
+  color: #111 !important;
+  border: none !important;
+  position: relative;
+  float: inline-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#home .home-tabs .button-tab > * {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+}
+
+.tab-active {
+  opacity: 1 !important;
+  font-weight: 700;
+  border: none !important;
+}
+
+.tab-active::before {
+  content: "";
+  width: 60%;
+  border: 2px solid var(--theme-color-text-secondary);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: #000000;
+
+}
+
+:global(.theme-dark) {
+  #home .home-tabs .button-tab {
+    background-color: var(--theme-color) !important;
+    color: var(--light) !important;
+    border-bottom: 0.3px solid #dddddd8f !important;
+  }
+
+  .tab-active::before {
+    border: 2px solid var(--light);
+  }
+}

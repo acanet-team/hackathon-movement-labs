@@ -1,0 +1,19 @@
+
+  .height-dropdown-menu {
+    max-width: 370px;
+  }
+  .logo-header{
+    width:200px;
+    height: 55px
+  }
+@media (max-width: 650px) {
+  .height-dropdown-menu {
+    height: calc(100vh - 124px);
+    max-width: 100vh;
+    overflow-y: auto;
+  }
+  .logo-header{
+    width:140px;
+    height: 50px
+  }
+}

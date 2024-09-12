@@ -1,0 +1,327 @@
+{
+  "Base": {
+    "member": "thành viên",
+    "members": "thành viên",
+    "free": "Miễn phí",
+    "like": "Thích",
+    "likes": "Thích",
+    "comment": "Bình luận",
+    "comments": "Bình luận",
+    "follower": "theo dõi",
+    "followers": "theo dõi",
+    "joined": "",
+    "pending": "",
+    "join": ""
+  },
+  "Error": {
+    "not_found": "Trang bạn đang tìm kiếm không tồn tại."
+  },
+  "Onboard": {
+    "continue": "Tiếp tục",
+    "finish": "Hoàn thành"
+  },
+  "Time": {
+    "now": "bây giờ",
+    "minute": "phút",
+    "minutes": "phút",
+    "day": "ngày",
+    "days": "ngày",
+    "hour": "giờ",
+    "hours": "giờ",
+    "week": "tuần",
+    "weeks": "tuần"
+  },
+  "SignIn": {
+    "sign_in_with_google": "Đăng nhập bằng Google",
+    "sign_in_with_facebook": "Đăng nhập bằng facebook",
+    "your_social_account": "tài khoản xã hội của bạn",
+    "sign_in_with": "Đăng nhập bằng",
+    "meta_description": "Đăng nhập liền mạch vào tài khoản của bạn bằng quy trình đăng nhập thân thiện với người dùng của chúng tôi.",
+    "meta_title": "Đăng nhập"
+  },
+  "CreatePost": {
+    "live_Video": "Video trực tiếp",
+    "create_Post": "Tạo bài đăng",
+    "Photo_Video": "Ảnh/Video",
+    "Whats_on_your_mind": "Bạn đang nghĩ gì vậy?",
+    "select_Topic": "Chọn chủ đề",
+    "no_topics": "Không tìm thấy chủ đề nào.",
+    "loading_topics": "Đang tải chủ đề...",
+    "please_select_a_topic": "Vui lòng chọn một chủ đề cho bài viết của bạn.",
+    "please_enter_text": "Vui lòng nhập một số văn bản cho bài viết của bạn.",
+    "post_create_success": "Bài viết được tạo thành công!",
+    "post_create_error": "Lỗi tạo bài viết.",
+    "error_fetch_topic": "Lỗi khi tìm nạp chủ đề."
+  },
+  "BrokerList": {
+    "broker_description": "Mọi ID yêu cầu đều được ghi lại tỉ mỉ trong nhật ký này. \nĐể biết thêm chi tiết, xin vui lòng xem xét chúng một cách cẩn thận.",
+    "broker_title": "Danh sách môi giới"
+  },
+  "Interest": {
+    "interest_title": "Bạn quan tâm đến điều gì?",
+    "interest_description": "Chọn ít nhất 1 chủ đề bạn quan tâm để giúp cá nhân hóa trải nghiệm của bạn."
+  },
+  "About": {
+    "about_paragraph": "Chào mừng bạn đến với trang Giới thiệu của chúng tôi! \nChúng tôi là một nhóm gồm những cá nhân đam mê tạo ra phần mềm tuyệt vời.",
+    "meta_description": "Giới thiệu về mô tả trang",
+    "meta_title": "Về",
+    "translation_powered_by": "Bản dịch được cung cấp bởi"
+  },
+  "BaseTemplate": {
+    "description": "Mã khởi đầu cho Nextjs Boilerplate của bạn với CSS Tailwind",
+    "made_with": "Làm với"
+  },
+  "CoursesList": {
+    "course_description": "Mọi ID yêu cầu đều được ghi lại tỉ mỉ trong nhật ký này. \nĐể biết thêm chi tiết, xin vui lòng xem xét chúng một cách cẩn thận.",
+    "course_title": "Khóa học"
+  },
+  "Dashboard": {
+    "hello_message": "Xin chào {email}!",
+    "meta_title": "bảng điều khiển"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "bảng điều khiển",
+    "sign_out": "Đăng xuất",
+    "user_profile_link": "Quản lý tài khoản của bạn"
+  },
+  "Guestbook": {
+    "database_powered_by": "Cơ sở dữ liệu được cung cấp bởi",
+    "error_reporting_powered_by": "Báo cáo lỗi được cung cấp bởi",
+    "loading_guestbook": "Đang tải sổ lưu bút...",
+    "meta_description": "Một ví dụ về hoạt động CRUD",
+    "meta_title": "Sổ lưu bút"
+  },
+  "GuestbookForm": {
+    "body": "Thân hình",
+    "save": "Cứu",
+    "username": "tên tài khoản"
+  },
+  "Index": {
+    "meta_description": "Next js Boilerplate là mã khởi đầu hoàn hảo cho dự án của bạn. \nXây dựng ứng dụng React của bạn với khung Next.js.",
+    "meta_title": "Bản trình bày bản tóm tắt Next.js"
+  },
+  "Portfolio": {
+    "coverage_powered_by": "Bảo hiểm mã được cung cấp bởi",
+    "error_reporting_powered_by": "Báo cáo lỗi được cung cấp bởi",
+    "meta_description": "Chào mừng đến với trang danh mục đầu tư của tôi!",
+    "meta_title": "danh mục đầu tư",
+    "portfolio_name": "Danh mục đầu tư {name}",
+    "presentation": "Chào mừng đến với trang danh mục đầu tư của tôi! \nỞ đây bạn sẽ tìm thấy một bộ sưu tập được tuyển chọn cẩn thận về công việc và thành tích của tôi. \nThông qua danh mục đầu tư này, tôi muốn thể hiện chuyên môn, sự sáng tạo và giá trị mà tôi có thể mang lại cho các dự án của bạn."
+  },
+  "PortfolioSlug": {
+    "content": "Tạo một bộ tài liệu quảng cáo và các yếu tố xây dựng thương hiệu cho một sự kiện của công ty. \nTạo một chủ đề thống nhất về mặt hình ảnh, bao gồm logo, áp phích, biểu ngữ và nội dung kỹ thuật số. \nTích hợp nhận diện thương hiệu của khách hàng đồng thời truyền tải nó bằng cách tiếp cận hiện đại và sáng tạo. \nThu được phản hồi tích cực từ những người tham dự sự kiện, dẫn đến một sự kiện thành công với mức độ tương tác của người tham gia tăng cao và khả năng hiển thị thương hiệu tăng lên.",
+    "header": "Danh mục đầu tư {sên}",
+    "log_management_powered_by": "Quản lý nhật ký được cung cấp bởi",
+    "meta_description": "Mô tả danh mục đầu tư {sên}",
+    "meta_title": "Danh mục đầu tư {sên}"
+  },
+  "RootLayout": {
+    "about_link": "Về",
+    "guestbook_link": "Sổ lưu bút",
+    "home_link": "Trang chủ",
+    "portfolio_link": "danh mục đầu tư",
+    "sign_in_link": "Đăng nhập",
+    "sign_up_link": "Đăng ký"
+  },
+  "SignUp": {
+    "meta_description": "Dễ dàng tạo tài khoản thông qua quy trình đăng ký trực quan của chúng tôi.",
+    "meta_title": "Đăng ký"
+  },
+  "TopBrokers": {
+    "top_broker_title": "Nhà môi giới hàng đầu"
+  },
+  "UserProfile": {
+    "meta_title": "Thông tin người dùng"
+  },
+  "Post": {
+    "Explore_More": "Khám phá",
+    "No_Posts_Found": "Không tìm thấy bài viết."
+  },
+  "CreateProfile": {
+    "create_profile_title": "Chi tiết tài khoản",
+    "create_profile_desc": "Vui lòng điền một số thông tin cơ bản về bạn.",
+    "region": "Địa điểm",
+    "user_type": "Vai trò",
+    "broker": "Tôi là nhà môi giới",
+    "investor": "Tôi là nhà đầu tư",
+    "error_location": "Vui lòng chọn địa điểm.",
+    "error_user_type": "VVui lòng chọn vai trò người dùng.",
+    "error_missing_nickname": "Please fill out a valid nickname.",
+    "error_invalid_nickname": "Biệt danh phải có từ 8 đến 20 ký tự.",
+    "error_missing_email": "Vui lòng điền một email hợp lệ.",
+    "error_invalid_email": "Địa chỉ email không hợp lệ."
+  },
+  "NavBar": {
+    "my profile": "Hồ sơ của tôi",
+    "newsfeed": "Tin tức",
+    "brokers": "Nhà môi giới",
+    "courses": "Khoá học",
+    "community": "Cộng đồng",
+    "messages": "Tin nhắn",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất",
+    "chat": "Trò chuyện",
+    "account": "Tài khoản",
+    "home_page": "Trang chủ"
+  },
+  "MyProfile": {
+    "follow": "Theo dõi",
+    "messages": "Tin nhắn",
+    "donate": "Quyên tặng",
+    "about": "Giới thiệu",
+    "experience": "Kinh nghiệm",
+    "education": "Học vấn",
+    "license&certifications": "Chứng chỉ & Bằng cấp",
+    "socialMedia": "Mạng xã hội",
+    "AI summary": "Tóm tắt AI",
+    "contact": "Liên hệ",
+    "servicesOffer": "Dịch vụ cung cấp",
+    "location": "Vị trí",
+    "interestTopic": "Chủ đề quan tâm",
+    "This broker has been verified by Acanet": "Nhà môi giới này đã được Acanet xác minh",
+    "Certified Broker": "Chứng Nhận Nhà Môi Giới",
+    "Follow": "Theo Dõi",
+    "Messages": "Tin Nhắn",
+    "Posts": "Bài Viết",
+    "About": "Giới Thiệu",
+    "Communities": "Cộng Đồng",
+    "Rating": "Đánh Giá",
+    "save": "Lưu",
+    "back": "Quay Lại",
+    "company_name": "Tên Công Ty",
+    "job title": "Chức Vụ",
+    "Employment Type": "Loại Hình Công Việc",
+    "is working": "Đang Làm Việc",
+    "startDate": "Ngày Bắt Đầu",
+    "endDate": "Ngày Kết Thúc",
+    "description": "Mô Tả",
+    "enter the company name": "Nhập Tên Công Ty",
+    "enter the job title": "Nhập Chức Vụ",
+    "select working type": "Chọn Loại Hình Công Việc",
+    "company": "Công Ty",
+    "working type": "Loại Hình Công Việc",
+    "create": "Tạo Mới",
+    "select": "Chọn",
+    "edit": "Chỉnh Sửa",
+    "degree": "Bằng Cấp",
+    "major": "Ngành Học",
+    "is graduated": "Đã Tốt Nghiệp",
+    "start year": "Năm Bắt Đầu",
+    "end year": "Năm Kết Thúc",
+    "is required": "bắt buộc",
+    "license": "Giấy Phép",
+    "Certificate": "Chứng Nhận",
+    "certification": "Chứng Chỉ",
+    "Issuing Organization": "Tổ Chức Cấp",
+    "Issued year": "Năm Cấp",
+    "Expiration year": "Năm Hết Hạn",
+    "Credential ID": "ID Chứng Chỉ",
+    "License Status": "Trạng Thái Giấy Phép",
+    "Invalid URL format": "Định Dạng URL Không Hợp Lệ",
+    "followers": "người theo dõi",
+    "See more": "Xem thêm",
+    "New report is coming soon": "Bản Tóm Tắt Mới Sắp Ra Mắt",
+    "Activities and societies": "Hoạt Động và Cộng Đồng",
+    "educations": "giáo dục",
+    "Show all": "Xem thêm",
+    "experiences": "kinh nghiệm",
+    "Issued": "Được Cấp",
+    "Credential": "Chứng Chỉ",
+    "Email": "Email",
+    "name": "Tên",
+    "INTERMEDIATE": "TRUNG CẤP",
+    "ADVANCED": "CAO CẤP",
+    "ENGINEERING DEGREE": "BẰNG KỸ SƯ",
+    "BACHELOR'S DEGREE": "BẰNG CỬ NHÂN",
+    "MASTER'S DEGREE": "BẰNG THẠC SĨ",
+    "DOCTOR": "TIẾN SĨ",
+    "DEGREE": "BẰNG CẤP",
+    "PHD": "TIẾN SĨ",
+    "OTHER": "KHÁC",
+    "True": "Đúng",
+    "False": "Sai",
+    "following": "Đang theo dõi",
+    "donate_amount": "Số tiền ủng hộ",
+    "donate_amount_missing": "Số tiền ủng hộ phải lớn hơn 0.",
+    "donate_input": "Vui lòng sử dụng dấu phẩy làm dấu phân cách thập phân"
+  },
+  "Community": {
+    "community": "Cộng đồng",
+    "popular_community": "Phổ biến",
+    "following_community": "Đang theo dõi",
+    "owned_community": "Cộng đồng của bạn",
+    "avatar_image": "Ảnh đại diện",
+    "cover_image": "Ảnh bìa",
+    "group_name": "Tên cộng đồng",
+    "group_desc": "Mô tả cộng đồng",
+    "group_overview": "Tổng quan cộng đồng",
+    "group_type": "Loại cộng đồng",
+    "joining_fee": "Phí tham gia",
+    "free": "Cộng đồng miễn phí",
+    "paid": "Cộng đồng trả phí",
+    "error_missing_community_name": "Vui lòng điền tên cộng đồng.",
+    "error_invalid_community_name": "Tên phải có từ 4 đến 40 ký tự.",
+    "error_missing_description": "Vui lòng thêm mô tả cộng đồng.",
+    "error_invalid_description": "Mô tả phải có từ 4 đến 350 ký tự.",
+    "error_missing_fee": "Vui lòng điền phí tham gia.",
+    "error_joining_fee": "Phí tham gia phải lớn hơn 0.",
+    "joined": "Đã tham gia",
+    "pending": "Chờ duyệt",
+    "join": "Tham gia",
+    "approve_member_notification": "Thành viên được thêm vào cộng đồng.",
+    "delete_member_notification": "Xóa thành viên thành công.",
+    "invite new user": "Mời thành viên mới",
+    "table_name": "Tên",
+    "table_joined": "Tham gia",
+    "table_phone": "Điện thoại",
+    "table_email": "Email",
+    "table_action": "Hành động",
+    "about": "Thông tin",
+    "private": "Riêng tư",
+    "owner": "Chủ cộng đồng",
+    "invite_user": "Thêm thành viên mới",
+    "found_no_members": "Không có thành viên."
+  },
+  "FeedTabs": {
+    "for_you": "Dành cho bạn",
+    "suggestion": "Đang theo dõi"
+  },
+  "CommunityTabs": {
+    "posts": "Bài viết",
+    "members": "Thành viên",
+    "requests": "Duyệt thành viên"
+  },
+  "Modal": {
+    "modal_question": "Bạn có muốn tiếp tục?",
+    "modal_comment_delete": "Xác nhận xoá bình luận?",
+    "modal_post_delete": "Xác nhận xoá bài viết?",
+    "modal_member_delete": "Xác nhận xoá thành viên?",
+    "modal_member_reject": "Xác nhận từ chối thành viên?",
+    "modal_yes": "Tiếp tục",
+    "modal_no": "Không"
+  },
+  "Form": {
+    "search": "Tìm kiếm",
+    "add_new": "Thêm mới",
+    "filter": "Lọc",
+    "filter_none": "Không",
+    "filter_free": "Miễn phí",
+    "filter_paid": "Trả phí"
+  },
+  "Comment": {
+    "no_comment": "Không có bình luận.",
+    "write_comment": "Viết bình luận",
+    "error_post_comment": "Không gửi được bình luận"
+  },
+  "Rating": {
+    "write_review": "Viết đánh giá...",
+    "review_input_title": "Hãy cho chúng tôi biết đánh giá của bạn về",
+    "submit_review": "Gửi đánh giá",
+    "rank_desc": "Xếp hạng được cung cấp bởi Acanet Blockchain",
+    "rank_desc_guarantee": "Đảm bảo khách quan 100%",
+    "error_missing_rating": "Vui lòng điền điểm đánh giá."
+  },
+  "Wallet": {
+    "connect_wallet": "Kết nối ví của bạn tới Acanet"
+  }
+}

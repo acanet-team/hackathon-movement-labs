@@ -1,0 +1,99 @@
+// Community header
+.community-name {
+  margin: 65px 0 0 24px;
+}
+
+.community-avatar {
+  top: -50%;
+  left: 20px;
+}
+
+.pending-requests {
+  font-size: 12px;
+  right: -16px;
+  top: 10px;
+  font-weight: 800;
+}
+
+// Community table
+.community-table {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  background-color: var(--light);
+}
+
+.community-table td,
+.community-table th {
+  padding: 15px;
+  vertical-align: middle;
+}
+
+.member-tab__title {
+  margin-left: 24px !important;
+}
+
+.member-tab__subtitle {
+  font-size: 15px;
+}
+
+.name-col {
+  min-width: 200px;
+}
+
+.action-col {
+  min-width: 80px;
+}
+
+.email-col {
+  min-width: 250px;
+  word-break: break-all;
+}
+
+:global(.theme-dark) {
+  .community-table {
+    background-color: var(--theme-dark-color-bg);
+  }
+
+  .community-table td,
+  .community-table th {
+    color: var(--light) !important;
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 768px) {
+  // Community table
+  .member-tab {
+    margin-top: 30px;
+  }
+
+  .community-table {
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 100px;
+    position: relative;
+  }
+
+  .community-table td,
+  .community-table th {
+    padding: 10px;
+  }
+
+  .mobile-page__bookmark {
+    position: absolute;
+    left: 15px;
+    bottom: 70px;
+    margin-left: 0.5rem;
+  }
+
+  .member-tab__title {
+    margin-left: 5px !important;
+  }
+
+  // Community header
+  .community-name {
+    margin-left: 15px;
+  }
+
+  .community-avatar {
+    left: 15px;
+  }
+}

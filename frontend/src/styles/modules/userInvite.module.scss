@@ -1,0 +1,51 @@
+.user-invite__container {
+  background-color: var(--light);
+  padding: 25px 30px;
+  box-shadow: 5px 15px 125px rgb(0 0 0 / 22%);
+  border-radius: 6px;
+  z-index: 999;
+  border:0;
+  position: absolute;
+  width: 250px;
+  top: 110%;
+  right: 15px;
+  text-align: left;
+  transition: all 0.4s ease;
+  &.active {
+      visibility: visible;
+      opacity: 1;
+  }
+  &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 10px 15px 10px;
+      box-shadow: 5px 15px 125px rgb(0 0 0 / 22%);
+      border-color: transparent transparent var(--light) transparent;
+      position: absolute;
+      top:-10px; 
+      right:10px; 
+      display: inline-block;
+  }
+}
+
+.invite-user__option:hover {
+  font-weight: 500;
+}
+
+:global(.theme-dark) {
+  .user-invite__container {
+    background-color: var(--theme-color-shade);
+  }
+
+  .user-invite__container {
+    &:after {
+        border-color: transparent transparent var(--theme-color-shade) transparent;
+    }
+  }
+
+  .invite-user__option div {
+    color: var(--light) !important;
+  }
+}

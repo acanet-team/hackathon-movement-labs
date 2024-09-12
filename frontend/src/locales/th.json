@@ -1,0 +1,144 @@
+{
+  "SignIn": {
+    "sign_in_with_google": "ลงชื่อเข้าใช้งานด้วย Google",
+    "sign_in_with_facebook": "เข้าสู่ระบบด้วย Facebook",
+    "your_social_account": "บัญชีโซเชียลของคุณ",
+    "sign_in_with": "เข้าสู่ระบบด้วย",
+    "meta_description": "ลงชื่อเข้าใช้บัญชีของคุณได้อย่างราบรื่นด้วยกระบวนการเข้าสู่ระบบที่ใช้งานง่ายของเรา",
+    "meta_title": "เข้าสู่ระบบ"
+  },
+  "CreatePost": {
+    "live_Video": "วิดีโอสด",
+    "create_Post": "สร้างโพสต์",
+    "Photo_Video": "ภาพถ่าย/วิดีโอ",
+    "Whats_on_your_mind": "คุณกำลังคิดอะไรอยู่?",
+    "select_Topic": "เลือกหัวข้อ",
+    "no_topics": "ไม่พบหัวข้อ",
+    "loading_topics": "กำลังโหลดหัวข้อ...",
+    "please_select_a_topic": "โปรดเลือกหัวข้อสำหรับโพสต์ของคุณ",
+    "please_enter_text": "กรุณากรอกข้อความสำหรับโพสต์ของคุณ",
+    "post_create_success": "สร้างโพสต์สำเร็จแล้ว!",
+    "post_create_error": "เกิดข้อผิดพลาดในการสร้างโพสต์",
+    "error_fetch_topic": "เกิดข้อผิดพลาดในการเรียกหัวข้อ"
+  },
+  "BrokerList": {
+    "broker_description": "รหัสคำขอทุกรายการจะถูกบันทึกไว้อย่างพิถีพิถันในบันทึกนี้ \nสำหรับรายละเอียดเพิ่มเติม โปรดตรวจสอบอย่างละเอียด",
+    "broker_title": "รายชื่อนายหน้า"
+  },
+  "Interest": {
+    "interest_title": "สิ่งที่คุณมีความสนใจมีอะไรบ้าง?",
+    "interest_description": "เลือกอย่างน้อย 1 หัวข้อที่คุณสนใจเพื่อช่วยปรับแต่งประสบการณ์ของคุณ"
+  },
+  "About": {
+    "about_paragraph": "ยินดีต้อนรับสู่หน้าเกี่ยวกับของเรา! \nเราเป็นทีมงานที่มีความมุ่งมั่นทุ่มเทในการสร้างซอฟต์แวร์ที่น่าทึ่ง",
+    "meta_description": "เกี่ยวกับคำอธิบายหน้า",
+    "meta_title": "เกี่ยวกับ",
+    "translation_powered_by": "แปลขับเคลื่อนโดย"
+  },
+  "BaseTemplate": {
+    "description": "โค้ดเริ่มต้นสำหรับ Nextjs Boilerplate ด้วย Tailwind CSS",
+    "made_with": "ทำด้วย"
+  },
+  "CoursesList": {
+    "course_description": "รหัสคำขอทุกรายการจะถูกบันทึกไว้อย่างพิถีพิถันในบันทึกนี้ \nสำหรับรายละเอียดเพิ่มเติม โปรดตรวจสอบอย่างละเอียด",
+    "course_title": "หลักสูตร"
+  },
+  "Dashboard": {
+    "hello_message": "สวัสดี {อีเมล}!",
+    "meta_title": "แผงควบคุม"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "แผงควบคุม",
+    "sign_out": "ออกจากระบบ",
+    "user_profile_link": "จัดการบัญชีของคุณ"
+  },
+  "Guestbook": {
+    "database_powered_by": "ฐานข้อมูลขับเคลื่อนโดย",
+    "error_reporting_powered_by": "การรายงานข้อผิดพลาดที่ขับเคลื่อนโดย",
+    "loading_guestbook": "กำลังโหลดสมุดเยี่ยม...",
+    "meta_description": "ตัวอย่างการดำเนินการ CRUD",
+    "meta_title": "สมุดเยี่ยม"
+  },
+  "GuestbookForm": {
+    "body": "ร่างกาย",
+    "save": "บันทึก",
+    "username": "ชื่อผู้ใช้"
+  },
+  "Index": {
+    "meta_description": "Next js Boilerplate เป็นโค้ดเริ่มต้นที่สมบูรณ์แบบสำหรับโปรเจ็กต์ของคุณ \nสร้างแอปพลิเคชัน React ของคุณด้วยเฟรมเวิร์ก Next.js",
+    "meta_title": "Next.js การนำเสนอบอยเลอร์เพลท"
+  },
+  "Portfolio": {
+    "coverage_powered_by": "ความครอบคลุมของรหัสขับเคลื่อนโดย",
+    "error_reporting_powered_by": "การรายงานข้อผิดพลาดที่ขับเคลื่อนโดย",
+    "meta_description": "ยินดีต้อนรับสู่หน้าผลงานของฉัน!",
+    "meta_title": "ผลงาน",
+    "portfolio_name": "ผลงาน {ชื่อ}",
+    "presentation": "ยินดีต้อนรับสู่หน้าผลงานของฉัน! \nที่นี่คุณจะได้พบกับคอลเลกชันผลงานและความสำเร็จของฉันที่คัดสรรมาอย่างดี \nฉันจะแสดงความเชี่ยวชาญ ความคิดสร้างสรรค์ และคุณค่าที่ฉันสามารถนำมาสู่โครงการของคุณได้ผ่านพอร์ตโฟลิโอนี้"
+  },
+  "PortfolioSlug": {
+    "content": "สร้างชุดสื่อส่งเสริมการขายและองค์ประกอบการสร้างแบรนด์สำหรับกิจกรรมขององค์กร \nสร้างธีมที่เป็นหนึ่งเดียว ซึ่งประกอบด้วยโลโก้ โปสเตอร์ แบนเนอร์ และเนื้อหาดิจิทัล \nบูรณาการเอกลักษณ์ของแบรนด์ของลูกค้าในขณะที่ผสมผสานกับแนวทางร่วมสมัยและนวัตกรรม \nได้รับการตอบรับที่ดีจากผู้เข้าร่วมงาน ส่งผลให้งานประสบความสำเร็จด้วยการมีส่วนร่วมของผู้เข้าร่วมที่เพิ่มขึ้นและการมองเห็นแบรนด์ที่เพิ่มขึ้น",
+    "header": "ผลงาน {บุ้ง}",
+    "log_management_powered_by": "การจัดการบันทึกขับเคลื่อนโดย",
+    "meta_description": "คำอธิบายพอร์ตโฟลิโอ {slug}",
+    "meta_title": "ผลงาน {บุ้ง}"
+  },
+  "RootLayout": {
+    "about_link": "เกี่ยวกับ",
+    "guestbook_link": "สมุดเยี่ยม",
+    "home_link": "บ้าน",
+    "portfolio_link": "ผลงาน",
+    "sign_in_link": "เข้าสู่ระบบ",
+    "sign_up_link": "ลงชื่อ"
+  },
+  "SignUp": {
+    "meta_description": "สร้างบัญชีได้อย่างง่ายดายผ่านขั้นตอนการลงทะเบียนที่ใช้งานง่ายของเรา",
+    "meta_title": "ลงชื่อ"
+  },
+  "TopBrokers": {
+    "top_broker_title": "โบรกเกอร์ชั้นนำ"
+  },
+  "UserProfile": {
+    "meta_title": "ประวัติผู้ใช้"
+  },
+  "Post": {
+    "Explore_More": "สำรวจเพิ่มเติม"
+  },
+  "CreateProfile": {
+    "error_invalid_email": "ที่อยู่อีเมลไม่ถูกต้อง",
+    "error_missing_email": "กรุณากรอกอีเมล์ที่ถูกต้อง",
+    "error_user_type": "กรุณาเลือกประเภทผู้ใช้",
+    "error_location": "กรุณาเลือกสถานที่",
+    "error_invalid_nickname": "ชื่อเล่นต้องมีความยาวระหว่าง 8 ถึง 20 ตัวอักษร",
+    "error_missing_nickname": "กรุณากรอกชื่อเล่นที่ถูกต้อง"
+  },
+  "NavBar": {
+    "newsfeed": "ฟีดข่าว",
+    "my profile": "โปรไฟล์ของฉัน"
+  },
+  "MyProfile": {
+    "follow": "ติดตาม",
+    "messages": "ข้อความ",
+    "about": "เกี่ยวกับ",
+    "experience": "ประสบการณ์",
+    "education": "การศึกษา",
+    "license&certifications": "ใบอนุญาต & การรับรอง",
+    "socialMedia": "โซเชียลมีเดีย",
+    "AI summary": "สรุป AI",
+    "contact": "ติดต่อ",
+    "servicesOffer": "บริการที่เสนอ",
+    "location": "สถานที่",
+    "interestTopic": "หัวข้อที่สนใจ",
+    "This broker has been verified by Acanet": "โบรกเกอร์รายนี้ได้รับการยืนยันโดย Acanet"
+  },
+  "Community": {
+    "approve_notification": "สมาชิกถูกเพิ่มในชุมชนของคุณแล้ว",
+    "delete_member_notification": "ลบสมาชิกเรียบร้อยแล้ว",
+    "approve_member_notification": "เพิ่มสมาชิกในชุมชนของคุณแล้ว"
+  },
+  "Base": {
+    "joined": "",
+    "pending": "",
+    "join": ""
+  }
+}

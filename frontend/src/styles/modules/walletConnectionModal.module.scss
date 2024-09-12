@@ -1,0 +1,119 @@
+#wallet-modal .customModal {
+  overflow-y: auto !important;
+}
+
+#wallet-modal .modal-content {
+  background: white;
+  padding: 2rem 1rem 3.5rem;
+  position: relative;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-image: linear-gradient(
+      140.14deg,
+      rgba(0, 182, 191, 0.15),
+      rgba(27, 22, 89, 0.1) 86.61%
+    ),
+    linear-gradient(321.82deg, #18134d, #1b1659);
+  // background-image: linear-gradient(140.14deg, rgba(0, 182, 191, .15), rgba(27, 22, 89, .1) 86.61%), linear-gradient(321.82deg, #18134d, #1b1659);
+}
+
+#wallet-modal .connect-wallet_btn {
+  color: var(--light);
+  font-weight: 700;
+  width: 280px;
+  height: 60px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #58f3cc56;
+  background: linear-gradient(
+    162deg,
+    rgba(59, 208, 216, 0.2) 45%,
+    rgba(59, 208, 216, 0),
+    rgba(59, 208, 216, 0)
+  );
+  // background:linear-gradient(162deg, rgb(30, 116, 253, .9) 28.7%, rgb(30, 116, 253, .6), rgb(30, 116, 253, .9));
+  // background:linear-gradient(162deg, rgb(159, 89, 255, .8) 28.7%, rgb(159, 89, 255, .4), rgb(159, 89, 255, .8));
+}
+
+#wallet-modal .connect-wallet_btn:hover {
+  filter: brightness(0.95);
+  -webkit-backdrop-filter: brightness(0.95);
+  backdrop-filter: brightness(0.95);
+}
+
+#wallet-modal .modal-header {
+  padding: 15px;
+  position: relative;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#wallet-modal .modal-back__btn {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+}
+
+#wallet-modal .modal-back__btn::before {
+  font-weight: 500 !important;
+  font-size: 30px;
+}
+
+#wallet-modal .modal-footer,
+#wallet-modal .modal-header {
+  border: none !important;
+}
+
+#wallet-modal .modal-footer {
+  padding-right: 0 !important;
+}
+
+#wallet-modal .cover-image-edit__btn {
+  top: 10px;
+  right: 10px;
+}
+
+#wallet-modal {
+  :global(.modal-content) {
+    border: none;
+  }
+}
+
+:global(.theme-dark) {
+  .modal-header,
+  .modal-content,
+  .modal-footer {
+    background-color: var(--theme-dark-color-bg) !important;
+  }
+
+  .form-control {
+    background-color: var(--theme-color) !important;
+  }
+
+  #wallet-modal .connect-wallet_btn {
+    border: 1px solid #f0ed944e;
+    background: linear-gradient(162deg, rgb(16, 12, 40, .8) 28.7%, rgb(16, 12, 40, .4), rgb(16, 12, 40, .8));
+  }
+
+  #wallet-modal .modal-content {
+    background-image: linear-gradient(162deg, rgb(159, 89, 255, .8) 28.7%, rgb(159, 89, 255, .4), rgb(159, 89, 255, .8));
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 768px) {
+  .modal-header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-content {
+    padding: 1rem;
+  }
+
+  .modal-header {
+    padding: 25px;
+  }
+}

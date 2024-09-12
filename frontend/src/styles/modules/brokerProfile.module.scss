@@ -1,0 +1,100 @@
+#all-brokers .broker-profile {
+  width: 225px;
+  background-color: var(--light);
+  border: 1px solid var(--border-color-light);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, .05);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+#all-brokers .profile-data {
+  background-color: var(--border-color-light);
+  color: #111111c8;
+  border: 1px solid var(--border-color-lighter);
+  border-radius: 5px;
+  width: 100%;
+  padding: 8px;
+}
+
+#all-brokers .broker-skill {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+#all-brokers .profile-data div {
+  font-size: 12px !important;
+}
+
+#all-brokers .follow-btn:hover {
+  box-shadow: 0 0 2px 1px var(--border-color-light) !important;
+}
+
+#all-brokers .broker-icon {
+  opacity: 0.7;
+}
+
+#all-brokers .broker-stats {
+  // color: var(--theme-color-text-secondary);
+  font-weight: 700;
+}
+
+#all-brokers .broker-profile-img {
+  width: 100%;
+  height: 211px;
+  object-fit: cover;
+}
+
+#all-brokers .follow-btn {
+  display: block !important;
+  margin: 8px auto 0 !important;
+  padding: 8px 0;
+  border-radius: 5px;
+  background-color: #9e9e9e !important;
+  color: var(--light) !important;
+}
+
+#all-brokers .follow-btn:hover {
+  box-shadow: 0 3px 8px 6px rgba(0, 0, 0, 0.8);
+}
+
+#all-brokers .follow-broker {
+  background-color: var(--theme-color-main) !important;
+  color: var(--light) !important;
+  font-weight: 800;
+}
+
+// Dark theme
+:global(.theme-dark) #all-brokers .broker-profile {
+  background-color: #221f37;
+  border: 2px solid #38354b;
+}
+
+:global(.theme-dark) #all-brokers .profile-data {
+  background-color: #38364b;
+  color: #c4c3c9;
+}
+
+:global(.theme-dark) #all-brokers .broker-stats {
+  color: var(--light);
+}
+
+:global(.theme-dark) #all-brokers .broker-skill {
+  color: var(--light);
+}
+
+// MEDIA QUERIES
+@media (max-width: 768px) {
+  .onboard-finish__btn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0 !important;
+    z-index: 10;
+    background-color: var(--light);
+    border-top: 1px solid var(--border-color-light);
+  }
+
+  .onboard-finish__btn button {
+    margin: 1rem !important;
+  }
+}

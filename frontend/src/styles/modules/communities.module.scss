@@ -1,0 +1,132 @@
+#community {
+  padding-bottom: 120px;
+}
+
+#community .community-tabs {
+  width: 100%;
+  display: flex;
+  padding-bottom: 0 !important;
+}
+
+#community .community-tabs .button-tab {
+  width: 50%;
+  height: 35px;
+  opacity: 0.6;
+  font-weight: 700;
+  background-color: var(--light);
+  color: #111 !important;
+  position: relative;
+  float: inline-start;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+#community .community-tabs .button-tab > * {
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+}
+
+#community .new-community__btn {
+  width: 20%;
+}
+
+.tab-active {
+  opacity: 1 !important;
+  font-weight: 700;
+  border: none !important;
+}
+
+.tab-active::before {
+  content: "";
+  width: 60%;
+  border: 2px solid var(--theme-color-text-secondary);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#community a {
+  color: var(--theme-light-font-color);
+}
+
+:global(.theme-dark) {
+  #community {
+    background-color: var(--theme-color) !important;
+  }
+
+  #community p {
+    color: var(--light);
+  }
+
+  #community .community-tabs {
+    background-color: var(--theme-color);
+  }
+
+  #community .community-tabs .button-tab {
+    background-color: var(--theme-color) !important;
+    color: var(--light) !important;
+    border-bottom: 0.3px solid #dddddd8f !important;
+    padding: 20px 0;
+  }
+
+  #community .tab-active::before {
+    border: 2px solid var(--light);
+  }
+
+  #community .new-community__btn:hover {
+    background-color: var(--theme-color-shade);
+    border-color: var(--theme-color-shade);
+    color: var(--light) !important;
+  }
+
+  .edit-group__btn {
+    color: var(--light);
+  }
+}
+
+// MEDIA QUERIES
+@media (max-width: 768px) {
+  #community .community-tabs {
+    gap: 20px;
+    padding: 0 10px;
+  }
+
+  #community .card-body {
+    padding: 0 !important;
+  }
+
+  #community .search-section {
+    display: grid !important;
+    grid-template-columns: 2fr 1fr !important;
+    row-gap: 5px !important;
+    margin-top: 15px !important;
+  }
+
+  #community .search-box,
+  #community .filter-box {
+    width: 100%;
+  }
+
+  #community .community-tabs .button-tab {
+    height: 45px;
+  }
+
+  #community .owned {
+    line-height: 1.4;
+  }
+  #community .new-community__btn {
+    width: 100%;
+    padding: 10px 0 !important;
+    margin-top: 5px;
+    grid-column: 1/3;
+  }
+
+  #community .community-tabs .button-tab {
+    padding: 30px 0 !important;
+  }
+}

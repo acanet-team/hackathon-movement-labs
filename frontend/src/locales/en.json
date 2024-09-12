@@ -1,0 +1,325 @@
+{
+  "Base": {
+    "member": "member",
+    "members": "members",
+    "free": "Free",
+    "like": "Like",
+    "likes": "Likes",
+    "comment": "Comment",
+    "comments": "Comments",
+    "follower": "follower",
+    "followers": "followers"
+  },
+  "Error": {
+    "not_found": "The page you are looking for isn't available."
+  },
+  "Onboard": {
+    "continue": "Continue",
+    "finish": "Finish"
+  },
+  "Time": {
+    "now": "now",
+    "minute": "minute",
+    "minutes": "minutes",
+    "day": "day",
+    "days": "days",
+    "hour": "hour",
+    "hours": "hours",
+    "week": "week",
+    "weeks": "weeks"
+  },
+  "RootLayout": {
+    "home_link": "Home",
+    "about_link": "About",
+    "guestbook_link": "Guestbook",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Sign in",
+    "sign_up_link": "Sign up"
+  },
+  "BaseTemplate": {
+    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
+    "made_with": "Made with"
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Presentation",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework."
+  },
+  "Guestbook": {
+    "meta_title": "Guestbook",
+    "meta_description": "An example of CRUD operation",
+    "database_powered_by": "Database powered by",
+    "loading_guestbook": "Loading guestbook...",
+    "error_reporting_powered_by": "Error reporting powered by"
+  },
+  "GuestbookForm": {
+    "username": "Username",
+    "body": "Body",
+    "save": "Save"
+  },
+  "About": {
+    "meta_title": "About",
+    "meta_description": "About page description",
+    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
+    "translation_powered_by": "Translation powered by"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio",
+    "meta_description": "Welcome to my portfolio page!",
+    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "portfolio_name": "Portfolio {name}",
+    "error_reporting_powered_by": "Error reporting powered by",
+    "coverage_powered_by": "Code coverage powered by"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Portfolio {slug} description",
+    "header": "Portfolio {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
+    "log_management_powered_by": "Log management powered by"
+  },
+  "SignIn": {
+    "meta_title": "Sign in",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process.",
+    "sign_in_with": "Sign in with",
+    "your_social_account": "Your social account",
+    "sign_in_with_google": "Sign in with Google",
+    "sign_in_with_facebook": "Sign in with Facebook"
+  },
+  "SignUp": {
+    "meta_title": "Sign up",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "Dashboard": {
+    "meta_title": "Dashboard",
+    "hello_message": "Hello {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "User Profile"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "Dashboard",
+    "user_profile_link": "Manage your account",
+    "sign_out": "Sign out"
+  },
+  "BrokerList": {
+    "broker_title": "Broker List",
+    "broker_description": "Every request ID is meticulously recorded in this log. For more details, please review them carefully."
+  },
+  "Interest": {
+    "interest_title": "What are you interested in?",
+    "interest_description": "Select at least 1 topic you are interested in to help personalize your experience."
+  },
+  "CoursesList": {
+    "course_title": "Courses",
+    "course_description": "Every request ID is meticulously recorded in this log. For more details, please review them carefully."
+  },
+  "TopBrokers": {
+    "top_broker_title": "Top Brokers"
+  },
+  "CreatePost": {
+    "Whats_on_your_mind": "What's on your mind?",
+    "Photo_Video": "Photo/Video",
+    "live_Video": "Live Video",
+    "create_Post": "Create Post",
+    "select_Topic": "Select a topic",
+    "no_topics": "No topics found.",
+    "loading_topics": "Loading topics...",
+    "please_enter_text": "Please enter some text for your post.",
+    "please_select_a_topic": "Please select a topic for your post.",
+    "post_create_success": "Post created successfully!",
+    "post_create_error": "Error creating post.",
+    "error_fetch_topic": "Error fetching topics."
+  },
+  "Post": {
+    "Explore_More": "Explore More",
+    "No_Posts_Found": "No Posts Found."
+  },
+  "CreateProfile": {
+    "create_profile_title": "Account Details",
+    "create_profile_desc": "Please fill out some basic information about you.",
+    "region": "Region",
+    "user_type": "User type",
+    "broker": "I am a Broker",
+    "investor": "I am an Investor",
+    "error_location": "Please choose a location.",
+    "error_user_type": "Please choose the user type.",
+    "error_missing_nickname": "Please fill out a valid nickname.",
+    "error_invalid_nickname": "Nick name must be between 8 and 20 characters.",
+    "error_missing_email": "Please fill out a valid email.",
+    "error_invalid_email": "Invalid email address"
+  },
+  "NavBar": {
+    "newsfeed": "Newsfeed",
+    "brokers": "Brokers",
+    "courses": "Courses",
+    "community": "Communities",
+    "messages": "Messages",
+    "settings": "Settings",
+    "logout": "Log out",
+    "chat": "Chat",
+    "account": "Account",
+    "my profile": "My Profile",
+    "home_page": "Home Page"
+  },
+  "Community": {
+    "community": "Communities",
+    "popular_community": "Popular",
+    "following_community": "Following",
+    "owned_community": "Your Communities",
+    "avatar_image": "Avatar Image",
+    "cover_image": "Cover Image",
+    "group_name": "Community Name",
+    "group_desc": "Community Description",
+    "group_overview": "Community Overview",
+    "group_type": "Community Type",
+    "joining_fee": "Joining fee",
+    "free": "Free Community",
+    "paid": "Paid Community",
+    "error_missing_community_name": "Please fill out a community name.",
+    "error_invalid_community_name": "Name must be between 4 and 40 characters.",
+    "error_missing_description": "Please fill out a community description.",
+    "error_invalid_description": "Description must be between 4 and 350 characters.",
+    "error_missing_fee": "Please fill out a joining fee.",
+    "error_joining_fee": "Joining fee must be greater than 0.",
+    "joined": "Joined",
+    "pending": "Pending",
+    "join": "Join",
+    "approve_member_notification": "Member added to your community.",
+    "delete_member_notification": "Member successfully removed.",
+    "invite new user": "Invite new user",
+    "table_name": "Name",
+    "table_joined": "Joined",
+    "table_phone": "Phone",
+    "table_email": "Email",
+    "table_action": "Action",
+    "about": "About",
+    "private": "Private",
+    "owner": "Owner",
+    "invite_user": "Add a new member",
+    "found_no_members": "No members found."
+  },
+  "MyProfile": {
+    "follow": "Follow",
+    "messages": "Messages",
+    "donate": "Donate",
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "license&certifications": "License & Certificate",
+    "socialMedia": "Social Media",
+    "AI summary": "AI summary",
+    "contact": "Contact",
+    "servicesOffer": "Services offer",
+    "location": "Location",
+    "interestTopic": "Interest Topic",
+    "This broker has been verified by Acanet": "This broker has been verified by Acanet",
+    "Certified Broker": "Certified Broker",
+    "Follow": "Follow",
+    "Messages": "Message",
+    "Posts": "Posts",
+    "About": "About",
+    "Communities": "Communities",
+    "Rating": "Rating",
+    "save": "Save",
+    "back": "Back",
+    "company_name": "Company Name",
+    "job title": "Job Title",
+    "Employment Type": "Employment Type",
+    "is working": "Is Working",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "description": "Description",
+    "enter the company name": "Enter the company name",
+    "enter the job title": "Enter the job title",
+    "select working type": "Select working type",
+    "company": "Company",
+    "working type": "Employment type",
+    "create": "create",
+    "select": "Select",
+    "edit": "edit",
+    "degree": "Degree",
+    "major": "Major",
+    "is graduated": "Id Graduatted",
+    "start year": "Start Year",
+    "end year": "End Year",
+    "is required": "is required",
+    "license": "License",
+    "Certificate": "Certificate",
+    "certification": "Certification",
+    "Issuing Organization": "Issuing Organization",
+    "Issued year": "Issued year",
+    "Expiration year": "Expiration year",
+    "Credential ID": "Credential ID",
+    "License Status": "License Status",
+    "Invalid URL format": "Invalid URL format",
+    "followers": "followers",
+    "See more": "See more",
+    "New report is coming soon": "New report is coming soon",
+    "Activities and societies": "Activities and societies",
+    "educations": "educations",
+    "Show all": "Show more",
+    "experiences": "experiences",
+    "Issued": "Issued",
+    "Credential": "Credential",
+    "Email": "Email",
+    "name": "Name",
+    "INTERMEDIATE": "INTERMEDIATE",
+    "ADVANCED": "ADVANCED",
+    "ENGINEERING DEGREE": "ENGINEERING DEGREE",
+    "BACHELOR'S DEGREE": "BACHELOR'S DEGREE",
+    "MASTER'S DEGREE": "MASTER'S DEGREE",
+    "DOCTOR": "DOCTOR",
+    "DEGREE": "DEGREE",
+    "PHD": "PHD",
+    "OTHER": "OTHER",
+    "True": "True",
+    "False": "False",
+    "following": "Following",
+    "donate_amount": "Donate amount",
+    "donate_amount_missing": "Donate amount must be greater than 0.",
+    "donate_input": "Please use comma as the decimal seperator"
+  },
+  "FeedTabs": {
+    "for_you": "For you",
+    "suggestion": "Suggestion"
+  },
+  "CommunityTabs": {
+    "posts": "Posts",
+    "members": "Members",
+    "requests": "Pending Requests"
+  },
+  "Modal": {
+    "modal_question": "Do you want to proceed?",
+    "modal_yes": "Yes",
+    "modal_no": "No",
+    "modal_comment_delete": "Confirm deleting comment?",
+    "modal_post_delete": "Confirm deleting post?",
+    "modal_member_delete": "Confirm deleting member?",
+    "modal_member_reject": "Confirm rejecting member?"
+  },
+  "Form": {
+    "search": "Search",
+    "add_new": "Add new",
+    "filter": "Filter",
+    "filter_none": "None",
+    "filter_free": "Free",
+    "filter_paid": "Paid"
+  },
+  "Comment": {
+    "no_comment": "No comment found.",
+    "write_comment": "Write a comment",
+    "error_post_comment": "Failed to send the message"
+  },
+  "Education": "Education",
+  "Rating": {
+    "write_review": "Write a review...",
+    "review_input_title": "Let us know your review about",
+    "submit_review": "Submit Review",
+    "rank_desc": "Rating powered by Acanet Blockchain",
+    "rank_desc_guarantee": "100% Fairness Guarantee",
+    "error_missing_rating": "Please rate the broker."
+  },
+  "Wallet": {
+    "connect_wallet": "Connect your wallet to Acanet"
+  }
+}

@@ -1,0 +1,12 @@
+.rating {
+  display: flex; 
+  color: #ffd700 !important;
+}
+
+.rating .filled {
+  color: #ffd700 !important; 
+}
+
+.rating .empty {
+  color: #e0e0e0;
+}

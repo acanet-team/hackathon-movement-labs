@@ -1,0 +1,212 @@
+//  PRELOADER
+
+.preloader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: #ffffff;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  background-image: url(../../images/logo/logo.png);
+  background-size: 80px;
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid #048023;
+  /* Dark Green */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spinloader 2s linear infinite;
+
+  img {
+    height: 120px;
+    width: 120px;
+    animation: spinlogo 2s linear infinite;
+  }
+}
+
+
+
+.box {
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  margin: 0px 0 60px 0;
+  display: block;
+  background: transparent;
+
+  .lines {
+    position: absolute;
+    width: calc(100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .line {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin: 0px 0 5px 0;
+    border-radius: 5px;
+
+    &:nth-child(2n) {
+      height: calc(20% - 5px);
+    }
+
+    &:nth-child(2n + 1) {
+      height: calc(30% - 5px);
+    }
+  }
+
+  .s_shimmer {
+    background: rgba(0, 0, 0, 0.08);
+  }
+
+  &.shimmer {
+    overflow: hidden;
+
+    &::after {
+      background: linear-gradient(
+        90deg,
+        rgba(#fff, 0),
+        rgba(#fff, 0.2) 30%,
+        rgba(#fff, 0.9) 50%,
+        rgba(#fff, 0)
+      );
+
+      animation: gradient 1600ms infinite;
+      animation-timing-function: cubic-bezier(0.38, 0.55, 0.34, 0.95);
+
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      transform: translateX(-100%) rotate(0deg);
+      border-radius: 5px;
+    }
+  }
+}
+
+@keyframes gradient {
+  100% {
+    transform: translateX(100%) rotate(0deg);
+  }
+}
+
+.feed-body {
+  visibility: hidden;
+  overflow: hidden;
+  height: 0;
+}
+
+.loaded .feed-body {
+  visibility: visible;
+  overflow: visible;
+  height: 100%;
+}
+
+$loading-color: #F106EC;
+$loading-background: lighten($loading-color, 60%);
+
+$loading-size: 60px;
+$loading-speed: 1s;
+
+.c-spinning-loader-wrapper {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  display: flex;
+    background-color: #00000066;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-spinning-loader {
+  position: relative;
+
+  width: $loading-size;
+  height: $loading-size;
+  overflow: hidden;
+}
+
+.c-spinning-loader__circle {
+  position: relative;
+
+  width: $loading-size;
+  height: $loading-size;
+  margin: 0 auto;
+
+  border-radius: 100%;
+  background: linear-gradient(
+    to right,
+    $loading-color 10%,
+    rgba($loading-color, 0) 50%
+  );
+
+  animation: spin $loading-speed infinite linear;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 50%;
+    height: 50%;
+
+    border-radius: 100% 0 0 0;
+    background: $loading-color;
+  }
+
+  &::after {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 92%;
+    height: 92%;
+    margin: auto;
+
+    border-radius: 50%;
+    background: $loading-background;
+  }
+}
+
+.c-spinning-loader__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  display: block;
+
+  transform: translate(-50%, -50%);
+
+  fill: $loading-color;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
